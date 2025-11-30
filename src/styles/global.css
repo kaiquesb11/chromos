@@ -1,0 +1,11 @@
+body {
+    background-color: #79bcff;
+}
+
+h1 {
+    color: var(--secondary-color);
+}
+
+p {
+    color: #000000;
+}
