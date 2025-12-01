@@ -1,12 +1,13 @@
 import './styles/global.css';
 import './styles/theme.css';
+import { Heading } from './components/Heading';
 
 export function App() {
     console.log("Oi, Aloka!");
 
     return (
         <>
-            <h1>Hello World</h1>
+            <Heading />
             <p>This is a paragraph</p>
         </>
     )
