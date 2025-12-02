@@ -7,7 +7,9 @@ export function App() {
 
     return (
         <>
-            <Heading />
+            <Heading attr={123} attr2="string">
+            Oi, Aloka!
+            </Heading>
             <p>This is a paragraph</p>
         </>
     )
