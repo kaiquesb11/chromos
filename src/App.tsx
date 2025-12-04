@@ -1,15 +1,20 @@
 import './styles/global.css';
 import './styles/theme.css';
+import { TimerIcon } from 'lucide-react';
+
 import { Heading } from './components/Heading';
 
-export function App() {
-    console.log("Oi, Aloka!");
 
+export function App() {
     return (
         <>
-            <Heading attr={123} attr2="string">
-            Oi, Aloka!
+            <Heading>
+                <button>
+                    <TimerIcon /> 
+                </button>
+                Hello World
             </Heading>
+
             <p>This is a paragraph</p>
         </>
     )
