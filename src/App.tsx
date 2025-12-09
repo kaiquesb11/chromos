@@ -2,10 +2,12 @@
 import { Container } from './components/Container';
 import { Menu } from './components/Menu';
 import { Logo } from './components/Logo';
+import { CountDown } from './components/CountDown';
 
 /* Styles */
 import './styles/global.css';
 import './styles/theme.css';
+
 
 /* App */
 export function App() {
@@ -17,7 +19,11 @@ export function App() {
 
             <Container>
                 <Menu />
-            </Container>           
+            </Container>       
+
+            <Container>
+                <CountDown />
+            </Container>       
         </>
     );
     
