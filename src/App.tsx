@@ -7,6 +7,7 @@ import { CountDown } from './components/CountDown';
 /* Styles */
 import './styles/global.css';
 import './styles/theme.css';
+import { DefaultInput } from './components/DefaultInput';
 
 
 /* App */
@@ -28,8 +29,11 @@ export function App() {
             <Container>
                 <form className='form' action="">
                     <div className='formRow'>
-                        <label htmlFor="MeuInput">task</label>
-                        <input id='meuImput' type='text' />
+                        <DefaultInput 
+                        id="id" 
+                        type="text" 
+                        labelText='wf' 
+                        />
                     </div>
 
                     <div className='formRow'>
