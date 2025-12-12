@@ -30,9 +30,10 @@ export function App() {
                 <form className='form' action="">
                     <div className='formRow'>
                         <DefaultInput 
-                        id="id" 
+                        id="meuInput" 
                         type="text" 
-                        labelText='wf' 
+                        labelText='Task' 
+                        placeholder='Digite Algo' //Texto dentro do formulário
                         />
                     </div>
 
