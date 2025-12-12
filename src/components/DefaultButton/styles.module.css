@@ -1,0 +1,35 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24rem;
+    padding: 0.7rem;
+    border-radius: 0.8rem;
+    border: transparent;
+    margin: 3.2rem 0;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.button svg {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.green:hover {
+    background: rgba(55, 146, 91, 0.73);
+}
+
+.red:hover {
+    background: rgb(109, 0, 0);
+}
+
+.red {
+    background: rgb(165, 0, 0);
+    color: white;
+}
+
+.green {
+    background: rgba(86, 228, 143, 0.73);;
+    color: black;
+}

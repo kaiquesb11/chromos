@@ -3,18 +3,18 @@
     text-align: center;
     font-size: 1.8rem;
     padding: 0.8rem;
-    color: rgb(9, 232, 61);
+    color: rgba(86, 228, 143, 0.73);
     outline: none;
 
     border: 0.2rem solid transparent;
-    border-bottom: 0,2rem solid green;
+    border-bottom: 0,2rem solid rgba(86, 228, 143, 0.73);
     transition: all 0.1s ease-in-out;
 }
 
 .input:focus {
-    border: 0.2rem solid green;
+    border: 0.2rem solid rgba(86, 228, 143, 0.73);
     border-radius: 0.8rem;
-    border-bottom: 0.2rem solid green;
+    border-bottom: 0.2rem solid rgba(86, 228, 143, 0.73);
 }
 
 
