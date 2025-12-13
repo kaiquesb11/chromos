@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+.footer a {
+    font-size: 1.5rem;
+    color: rgb(147, 147, 147);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: rgb(234, 234, 234);
+    text-decoration: underline;
+}
