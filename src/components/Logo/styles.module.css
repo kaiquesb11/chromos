@@ -16,14 +16,14 @@
     font-size: 4.2rem;
     font-weight: bold;
     text-decoration: none;
-    color: gainsboro;
+    color: rgba(86, 228, 143, 0.73);
     transition: color 0.5s ease-in-out;
 }
 
 .logoLink:hover {
-    color: #808080;
+    color: rgba(48, 146, 87, 0.73);
 }
 
 .logoLink svg {
-    opacity: 0.9;
+    opacity: 10;
 }

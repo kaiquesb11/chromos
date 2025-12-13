@@ -36,3 +36,21 @@
     --text-disabled: #aab3cc;
 
 }
+
+:root[data-theme="light"]{
+    --gray-100: #121214;
+    --gray-200: #202024;
+    --gray-300: #323238;
+    --gray-400: #323238;
+    --gray-500: #7C7C8A;
+    --gray-600: #8D8D99;
+    --gray-700: #C4C4CC;
+    --gray-800: #E1E1E6;
+    --gray-900: #F4F4FA;
+
+    --text-default: #393939;
+    --text-muted: #2c2c2c;
+
+    --link-color: #0b8a60;
+    --link-hover: #065f46;
+}
