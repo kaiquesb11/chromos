@@ -3,15 +3,16 @@ import { Container } from './components/Container';
 import { Menu } from './components/Menu';
 import { Logo } from './components/Logo';
 import { CountDown } from './components/CountDown';
-
-/* Styles */
-import './styles/global.css';
-import './styles/theme.css';
 import { DefaultInput } from './components/DefaultInput';
 import { Cycles } from './components/Cycles';
 import { DefaultButton } from './components/DefaultButton';
 import { PlayCircleIcon } from 'lucide-react';
 import { Footer } from './components/Footer';
+
+
+/* Styles */
+import './styles/global.css';
+import './styles/theme.css';
 
 
 /* App */
@@ -36,8 +37,8 @@ export function App() {
                         <DefaultInput 
                         id="meuInput" 
                         type="text" 
-                        labelText='Task' 
-                        placeholder='Digite Algo' //Texto dentro do formulário
+                        labelText="Task"
+                        placeholder='Digite Aqui' //Texto dentro do formulário
                         />
                     </div>
 
