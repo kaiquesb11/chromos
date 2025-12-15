@@ -1,4 +1,3 @@
-
 import styles from "./styles.module.css";
 
 type DefaultButtonProps = {
@@ -10,8 +9,7 @@ export function DefaultButton ({ icon, color = "green", ...props }:DefaultButton
     return (
         <button 
             className={`${styles.button} ${styles[color]}`} 
-            {...props}
-        > 
+            {...props}> 
             {icon}
         </button>
     );
