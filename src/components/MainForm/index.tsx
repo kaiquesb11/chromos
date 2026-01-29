@@ -48,16 +48,6 @@ export function MainForm() {
         payload: newTask,
     });
 
-    const worker = new Worker(new URL("../../workers/timerWorker.js", import.meta.url),);
-
-    worker.postMessage("FAVOOR");
-    worker.postMessage("FALA_OI");
-    worker.postMessage("BLABLABLA");
-    worker.postMessage("FECHAR");
-
-    worker.onmessage = function (event){
-        console.log ("Principal recebeu:", event.data);
-    }; 
     }
 
     function handleInterruptTask() {
